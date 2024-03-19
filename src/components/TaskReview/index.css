@@ -1,0 +1,33 @@
+.review {
+  list-style-type: none;
+}
+.review-container {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a171d;
+  padding: 10px;
+}
+.tag {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.type-container {
+  border-radius: 20px;
+  background-color: #f3aa4e;
+  margin-top: 15px;
+  padding: 5px;
+  height: 40px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.type {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1a171d;
+}

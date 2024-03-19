@@ -1,0 +1,88 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+.content-container-1 {
+  width: 40vw;
+  background-color: #131213;
+  padding: 30px;
+}
+.create-text {
+  color: #f3aa4e;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+.content-container-2 {
+  width: 60vw;
+  background-color: #000000;
+  padding: 30px;
+}
+.tags-text {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.task-text {
+  color: #ffffff;
+  font-size: 45px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.label-text {
+  color: #f8f8f8;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.input {
+  height: 35px;
+  width: 300px;
+  padding: 20px;
+  font-size: 18px;
+  color: #64748b;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+.tag-input {
+  height: 35px;
+  width: 300px;
+  padding: 20px;
+  font-size: 18px;
+  color: #f3aa4e;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+.label-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.add-btn {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  height: 45px;
+  width: 120px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin-left: 90px;
+}
+.tags-container {
+  display: flex;
+}
+.no-task-para {
+  text-align: center;
+  color: #f8fafc;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.task-review-container {
+  overflow-y: scroll;
+  height: 60vh;
+}

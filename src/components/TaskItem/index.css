@@ -1,0 +1,14 @@
+.task-item {
+  list-style-type: none;
+}
+.tag-button {
+  border-radius: 20px;
+  border: 1px solid #f8f8f8;
+  height: 30px;
+  margin: 10px;
+  color: #f8f8f8;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  background-color: transparent;
+}
